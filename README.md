@@ -72,7 +72,7 @@ DELETE /api/resource/:id
 - dotenv (for environment variables)
 
 ## Future Enhancements
-Add user authentication (e.g., JWT).
-Implement validation middleware for request data.
-Extend API functionality with additional endpoints.
-Use an ORM like Sequelize for database interactions.
+- Add user authentication (e.g., JWT).
+- Implement validation middleware for request data.
+- Extend API functionality with additional endpoints.
+- Use an ORM like Sequelize for database interactions.
