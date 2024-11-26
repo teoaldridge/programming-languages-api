@@ -30,7 +30,7 @@ project-root/
 └── README.md         # Project documentation
 ```
 
-##How to Run
+## How to Run
 
 Clone the repository:
 ```bash
@@ -64,13 +64,13 @@ PUT /api/resource/:id
 DELETE /api/resource/:id
 ```
 
-###Technologies Used:
+### Technologies Used:
 Node.js
 Express.js
 MySQL
 dotenv (for environment variables)
 
-##Future Enhancements
+## Future Enhancements
 Add user authentication (e.g., JWT).
 Implement validation middleware for request data.
 Extend API functionality with additional endpoints.
