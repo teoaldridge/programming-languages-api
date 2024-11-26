@@ -12,6 +12,16 @@ router.get('/', async function(req, res, next) {
   }
 });
 
+// GET one programming language by id
+router.get('/:id', async function(req, res, next) {
+  try {
+    res.json(await programmingLanguages.search(req.params.id));
+  } catch (err) {
+    console.error(`Error while searching programming languages `, err.message);
+    next(err);
+  }
+});
+
 /* POST programming language */
 router.post('/', async function(req, res, next) {
   try {
