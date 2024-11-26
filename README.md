@@ -1,5 +1,6 @@
 # REST API with Node.js, Express, and MySQL
 This project is a simple REST API built using Node.js, Express, and MySQL, following the [LogRocket tutorial](https://blog.logrocket.com/build-rest-api-node-express-mysql/).
+I set up the MySQL database using [Alwaysdata](https://www.alwaysdata.com/en/), usind their free tier service. 
 
 ## Overview
 The REST API provides endpoints to perform CRUD (Create, Read, Update, Delete) operations on a MySQL database. It demonstrates how to:
@@ -65,10 +66,10 @@ DELETE /api/resource/:id
 ```
 
 ### Technologies Used:
-Node.js
-Express.js
-MySQL
-dotenv (for environment variables)
+- Node.js
+- Express.js
+- MySQL
+- dotenv (for environment variables)
 
 ## Future Enhancements
 Add user authentication (e.g., JWT).
